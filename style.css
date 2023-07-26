@@ -1,0 +1,97 @@
+.top-container {
+    background: url('./images/pastelbackground.webp') no-repeat fixed;
+    background-size: cover;
+    padding: 100px; 
+
+}
+
+h1 {
+    font-family: 'Sansita', sans-serif;
+    color: white;
+    font-size: 100px;
+}
+
+.button1 {
+    border-radius: 12px;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    
+}
+
+.my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+
+
+
+
+h2 {
+    font-family: 'Sansita', sans-serif;
+    font-size: 3rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    
+    }
+
+h3 {
+    display: block;
+}
+
+a {
+    color: white;
+}
+  
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+span {
+    color: white;
+}
+ 
+.img1 {
+    border-radius: 50%;
+    float: center;
+
+}
+
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+    border-color: white;
+    
+}
+
+.middle-container {
+    background-color: rgba(144, 188, 214, 0.554);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+
+.last-section {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+[data-bs-theme="dark"] {
+    opacity: 50%;
+
+}
+
+.footer {
+        background-color: rgba(144, 188, 214, 0.554);
+}
